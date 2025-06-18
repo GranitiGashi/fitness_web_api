@@ -1,4 +1,4 @@
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const { signAccessToken, signRefreshToken, verifyRefreshToken } = require("../utils/jwt");
 const User = require("../models/User");
 const Client = require("../models/Client");

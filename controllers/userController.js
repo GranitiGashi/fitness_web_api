@@ -1,7 +1,7 @@
 const User = require('../models/User');
 const Client = require('../models/Client');
 const Trainer = require('../models/Trainer');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { validate: isUUID } = require('uuid');
 
